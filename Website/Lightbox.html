@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Galerie | Urlaubsfinder </title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div id="jaa" class="center">
+        <img src="Logo.png" width="300px" /> 
+    </div>
+
+    <header>
+        <h1>Galerie</h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="gallery">
+                <img src="NewYork3.jpg" alt="Bild 1" class="thumbnail" onclick="openLightbox(1);currentSlide(1, 1)">
+                <img src="Tokiotitelbild.jpg" alt="Bild 2" class="thumbnail" onclick="openLightbox(2);currentSlide(1, 2)">
+                <img src="Pforzheimstart.jpg" alt="Bild 3" class="thumbnail" onclick="openLightbox(3);currentSlide(1, 3)">
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox1" class="lightbox">
+        <span class="close cursor" onclick="closeLightbox(1)">&times;</span>
+        <div class="lightbox-content">
+            <div class="lightbox-slide">
+                <img src="NewYorktitel.jpg" alt="Bild 1" style="width:100%">
+                <p> </p>
+                <img src="NewYork1.jpg" alt="Bild 1" style="width:100%">
+                <p> </p>
+                <img src="NewYork2.jpg" alt="Bild 1" style="width:100%">
+                <p> </p>
+                <img src="NewYork4.jpg" alt="Bild 1" style="width:100%">
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox2" class="lightbox">
+        <span class="close cursor" onclick="closeLightbox(2)">&times;</span>
+        <div class="lightbox-content">
+            <div class="lightbox-slide">
+                <img src="Tokiobild1.jpg" alt="Bild 3" style="width:100%">
+                <p> </p>
+                <img src="Tokiobild2.jpg" alt="Bild 3" style="width:100%">
+                <p> </p>
+                <img src="Tokiobild3.jpg" alt="Bild 3" style="width:100%">
+                <p> </p>
+                <img src="Tokiobild4.jpg" alt="Bild 3" style="width:100%">
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox3" class="lightbox">
+        <span class="close cursor" onclick="closeLightbox(3)">&times;</span>
+        <div class="lightbox-content">
+            <div class="lightbox-slide">
+                <img src="Pforzheimbild1.jpg" alt="Bild 5" style="width:100%">
+                <p> </p>
+                <img src="https://www.tourismus-bw.de/_Resources/Persistent/9f1f6cfedda64e5d8b7c8493fa2e76f697a22eec/Pforzheim_von-oben_%C2%A9_Markus-Born-1200x675.jpg" alt="Bild 5" style="width:100%">
+                <p> </p>
+                <img src="https://www.tourismus-bw.de/_Resources/Persistent/85eaa003fcec2b8c1930cd61f20ad6e15e3828f6/Pforzheim_Auerbr%C3%BCcke-Panorama_%C2%A9_Pierre-Johne-1200x675.jpg" alt="Bild 5" style="width:100%">
+            </div>
+        </div>
+    </div>
+    
+    <footer> 
+        <li><a href="home.html"> Zurück </a></li>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

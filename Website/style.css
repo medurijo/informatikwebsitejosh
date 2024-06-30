@@ -1,0 +1,162 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(210, 251, 236);
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-top: -77px;
+    margin-bottom: -77px; 
+}
+
+#Startbild {
+    width: 100%;
+    height: 300px;
+}
+
+#Startbild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 800px) {    
+    #Startbild {
+        height: 500px;
+    }
+}  
+
+footer ul, nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+nav {
+    position: sticky;   
+    top: 0px;
+    backdrop-filter: blur(8px);   
+}
+
+footer ul li a, nav ul li a {
+    font-weight: 500;
+    padding: 20px;
+}
+
+section {
+   max-width: 1100px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-bottom: 150px;
+}
+
+.Textbild {
+    width: 100%;
+    height: 300px;
+}
+
+.Textbild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#button {
+    cursor: pointer;
+    background-color: rgb(220, 70, 70);
+    border: 0;
+    color: white;
+    padding: 0.2em 0.7em;
+    margin-right: 17px;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+#button2 {
+    cursor: pointer;
+    background-color: rgb(52, 52, 222);
+    border: 0;
+    color: white;
+    padding: 0.2em 0.7em;
+    margin-right: 17px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+#button3 {
+    cursor: pointer;
+    background-color: rgb(198, 203, 50);
+    border: 0;
+    color: white;
+    padding: 0.2em 0.7em;
+    margin-right: 17px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+#button4 {
+    cursor: pointer;
+    background-color: rgb(70, 220, 148);
+    border: 0;
+    color: white;
+    padding: 0.2em 0.7em;
+    margin-right: 17px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+#mittelbild {
+    width: 100%;
+    height: 250px;
+}
+
+#mittelbild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#ytvideo {
+    width: 600px;
+    height: 330px;
+}
+
+#ytvideo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+@media (max-width: 599px) {
+    #ytvideo {
+        width: 280px;
+        height: 180px;
+ }
+}
+
+
+
+
+
+
+
+
